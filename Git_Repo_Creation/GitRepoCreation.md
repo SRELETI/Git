@@ -9,8 +9,8 @@
 
 **HTTPS:** provides authentication. Most popular. To push, the user has to authenticate by entering the password. It also allows anonymous pull.
 
-**SSH: ** Most servers have it setup already. It authenticates using keys instead of password. Push and pull will be done after authentication. Anonymous pulls are not allowed. 
+**SSH:** Most servers have it setup already. It authenticates using keys instead of password. Push and pull will be done after authentication. Anonymous pulls are not allowed. 
 
-**Local: ** Can be used, if the Git Server and the users, both save to a network file system. 
+**Local:** Can be used, if the Git Server and the users, both save to a network file system. 
 
  
