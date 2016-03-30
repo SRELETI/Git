@@ -18,6 +18,10 @@
 ###### "Diff" on staging area
 **git diff --cached** checks the difference between the previous commit and the staging area.
 
+###### Remove files from the working directory
+**git clean -df** will clean the working directory. It removes files from the working directory
+**git reset HEAD --hard** will reset the working directory to the last commit.
+
 
 ###### Remove Files
 **git rm <filename>** will remove the file from the working directory and stages the change. So, it means the user doesnt have to run the "git add" command again. This is the main difference when compared with the normal rm command.
