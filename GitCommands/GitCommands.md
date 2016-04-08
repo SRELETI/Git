@@ -78,4 +78,8 @@ Shows the history of commits. Its fast, as everything is local.
 **git show commitname**
 **git ls-tree commitname**
 
+**git push local branch to remote branch**
+
+git push -u origin feature_branch_name
+
  
