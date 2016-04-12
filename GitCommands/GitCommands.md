@@ -83,3 +83,16 @@ Shows the history of commits. Its fast, as everything is local.
 git push -u origin feature_branch_name
 
  
+###### Git submodules:
+Git submodules are typically used when you want to access another git repo in your code. For example, if you are using a library or has some dependency on other repo in your code, then you can access that code in your repo using submodules. 
+
+**git submodule add url** will add a repo as submodule to your local repo.
+
+**git clone url** will clone a project with submodule, but the submodule will be empty. **git submodule init** and **git submodule update** has to be run to get data into it.
+
+**git clone --recursive url** will clone a project with submodule and also init and update the submodule for you. 
+
+** Working on the submodule is same as how you do for a normal repo**
+
+** git push --recurse-submodules=check** will push the submodules first and then push the main repo.
+
