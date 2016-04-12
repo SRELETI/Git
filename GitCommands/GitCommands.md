@@ -92,7 +92,7 @@ Git submodules are typically used when you want to access another git repo in yo
 
 **git clone --recursive url** will clone a project with submodule and also init and update the submodule for you. 
 
-** Working on the submodule is same as how you do for a normal repo**
+**Working on the submodule is same as how you do for a normal repo**
 
-** git push --recurse-submodules=check** will push the submodules first and then push the main repo.
+**git push --recurse-submodules=check** will push the submodules first and then push the main repo.
 
