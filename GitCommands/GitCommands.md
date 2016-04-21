@@ -96,3 +96,13 @@ Git submodules are typically used when you want to access another git repo in yo
 
 **git push --recurse-submodules=check** will push the submodules first and then push the main repo.
 
+###### Made Changes in Wrong branch
+
+Made changes in master branch instead of making changes in a topic branch.
+
+**git stash**
+
+**git checkout topic_branch**
+
+**git stash apply**
+
